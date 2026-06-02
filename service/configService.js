@@ -1,4 +1,4 @@
-import configDal from "../DAL/configDal.js";
+import configDal from "../DAL/configDAL.js";
 import ErrorHandler from "../utills/ErrorHandler.js";
 
 const getConfigs = async () => {
