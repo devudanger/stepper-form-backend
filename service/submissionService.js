@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import { v4 as uuidv4 } from "uuid";
-import submissionDal from "../dal/submissionDal.js";
-import configDal from "../dal/configDal.js";
+import submissionDal from "../DAL/submissionDal.js";
+import configDal from "../DAL/configDal.js";
 import ErrorHandler from "../utills/ErrorHandler.js";
 
 const createSubmission = async (body) => {
